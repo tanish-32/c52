@@ -1,0 +1,51 @@
+h1 {
+    color: white;
+    margin-left:30px;
+}                                                          
+
+ * {
+    border: solid;
+} 
+
+.header{
+    background-color: cadetblue;                                                                         
+     display: flex;
+    justify-content: space-between;
+}                                                                             
+
+
+p,h2{
+    text-align: center;
+}
+a:link{
+    color: gold;
+
+}
+a:visited{
+    color: yellowgreen;
+}
+.menu{
+    margin-left: 30px;
+}
+.menu a{
+    margin-left: 40px;
+}
+.item{
+    position:relative;
+}
+.item a{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      opacity: 0%;
+      font-family:fantasy;
+
+}
+.item:hover p{
+opacity: 1 ;
+
+}
+.item:hover img{
+    opacity: 0.33;
+}
